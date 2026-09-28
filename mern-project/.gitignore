@@ -1,0 +1,18 @@
+# Environment files and secrets
+backend/.env
+frontend/.env
+*.local
+
+# Dependencies and build output
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
